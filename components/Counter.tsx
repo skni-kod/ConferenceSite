@@ -5,10 +5,7 @@ const initialTime = new Date('April 6, 2022 10:00:00').getTime() - Date.now()
 const interval = 1000
 
 const Counter = () => {
-  const [timeLeft, { start, pause, resume, reset }] = useCountDown(
-    initialTime,
-    interval
-  )
+  const [timeLeft, { start }] = useCountDown(initialTime, interval)
 
   useEffect(() => {
     start()
