@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Partners = () => {
   return (
-    <section className="text-center text-xl font-semibold uppercase md:text-2xl lg:text-5xl xl:text-6xl" id="patroni">
+    <section className="p-10 text-center text-xl font-semibold uppercase md:text-2xl lg:text-5xl xl:text-6xl" id="patroni">
       <h2 className="py-8 normal-case lg:py-16 lg:text-4xl">
         Partnerami wydarzenia są:
       </h2>
