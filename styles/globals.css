@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.neon {
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
