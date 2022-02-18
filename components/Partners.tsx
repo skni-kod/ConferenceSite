@@ -32,7 +32,7 @@ const Partners = () => {
       <div className="mb-12 sm:mb-24">
         <h3 className="mb-6  md:mb-10 lg:mb-12 md:text-xl lg:text-4xl xl:text-5xl">Partner złoty</h3>
         <div className="flex flex-col gap-6 px-6 lg:flex-row lg:flex-wrap lg:justify-center lg:gap-12">
-          <div className="relative h-18 lg:h-32 w-full lg:basis-1/4">
+          <div className="relative h-16 lg:h-32 w-full lg:basis-1/4">
             <Image
               src="/logo.webp"
               alt="sponsor"
@@ -46,7 +46,7 @@ const Partners = () => {
       <div className="mb-12 sm:mb-24">
         <h3 className="mb-6  md:mb-10 lg:mb-12 md:text-xl lg:text-4xl xl:text-5xl">Partner srebrny</h3>
         <div className="flex flex-col gap-6 px-6 lg:flex-row lg:flex-wrap lg:justify-center lg:gap-12">
-          <div className="relative h-16 lg:h-28 w-full lg:basis-1/4">
+          <div className="relative h-14 lg:h-28 w-full lg:basis-1/4">
             <Image
               src="/logo.webp"
               alt="sponsor"
@@ -54,7 +54,7 @@ const Partners = () => {
               objectFit="contain"
             />
           </div>
-          <div className="relative h-16 lg:h-28 w-full lg:basis-1/4">
+          <div className="relative h-14 lg:h-28 w-full lg:basis-1/4">
             <Image
               src="/logo.webp"
               alt="sponsor"
@@ -62,7 +62,7 @@ const Partners = () => {
               objectFit="contain"
             />
           </div>
-          <div className="relative h-16 lg:h-28 w-full lg:basis-1/4">
+          <div className="relative h-14 lg:h-28 w-full lg:basis-1/4">
             <Image
               src="/logo.webp"
               alt="sponsor"
@@ -76,7 +76,7 @@ const Partners = () => {
       <div className="mb-12 sm:mb-24">
         <h3 className="mb-6  md:mb-10 lg:mb-12 md:text-xl lg:text-3xl xl:text-4xl">Partner brązowy</h3>
         <div className="flex flex-col gap-6 px-6 lg:flex-row lg:flex-wrap lg:justify-center lg:gap-12">
-          <div className="relative h-16 lg:h-28 w-full lg:basis-1/4">
+          <div className="relative h-14 lg:h-28 w-full lg:basis-1/4">
             <Image
               src="/logo.webp"
               alt="sponsor"
@@ -90,7 +90,7 @@ const Partners = () => {
       <div className="mb-12 sm:mb-24">
         <h3 className="mb-6  md:mb-10 lg:mb-12 md:text-xl lg:text-3xl xl:text-4xl">Partner strategiczny</h3>
         <div className="flex flex-col gap-6 px-6 lg:flex-row lg:flex-wrap lg:justify-center lg:gap-12">
-          <div className="relative h-14 lg:h-24 w-full lg:basis-1/4">
+          <div className="relative h-12 lg:h-24 w-full lg:basis-1/4">
             <Image
               src="/logo.webp"
               alt="sponsor"
@@ -98,7 +98,7 @@ const Partners = () => {
               objectFit="contain"
             />
           </div>
-          <div className="relative h-14 lg:h-24 w-full lg:basis-1/4">
+          <div className="relative h-12 lg:h-24 w-full lg:basis-1/4">
             <Image
               src="/logo.webp"
               alt="sponsor"
@@ -106,7 +106,7 @@ const Partners = () => {
               objectFit="contain"
             />
           </div>
-          <div className="relative h-14 lg:h-24 w-full lg:basis-1/4">
+          <div className="relative h-12 lg:h-24 w-full lg:basis-1/4">
             <Image
               src="/logo.webp"
               alt="sponsor"
@@ -120,7 +120,7 @@ const Partners = () => {
       <div className="mb-12 sm:mb-24">
         <h3 className="mb-6  md:mb-10 lg:mb-12 md:text-xl lg:text-3xl xl:text-4xl">Partner medialny</h3>
         <div className="flex flex-col gap-6 px-6 lg:flex-row lg:flex-wrap lg:justify-center lg:gap-12">
-          <div className="relative h-14 lg:h-24 w-full lg:basis-1/4">
+          <div className="relative h-12 lg:h-24 w-full lg:basis-1/4">
             <Image
               src="/logo.webp"
               alt="sponsor"
@@ -128,7 +128,7 @@ const Partners = () => {
               objectFit="contain"
             />
           </div>
-          <div className="relative h-14 lg:h-24 w-full lg:basis-1/4">
+          <div className="relative h-12 lg:h-24 w-full lg:basis-1/4">
             <Image
               src="/logo.webp"
               alt="sponsor"
@@ -136,7 +136,7 @@ const Partners = () => {
               objectFit="contain"
             />
           </div>
-          <div className="relative h-14 lg:h-24 w-full lg:basis-1/4">
+          <div className="relative h-12 lg:h-24 w-full lg:basis-1/4">
             <Image
               src="/logo.webp"
               alt="sponsor"
@@ -144,7 +144,7 @@ const Partners = () => {
               objectFit="contain"
             />
           </div>
-          <div className="relative h-14 lg:h-24 w-full lg:basis-1/4">
+          <div className="relative h-12 lg:h-24 w-full lg:basis-1/4">
             <Image
               src="/logo.webp"
               alt="sponsor"
