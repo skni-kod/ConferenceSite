@@ -4,7 +4,7 @@ const FaqItem = (props: any) => {
   const [clicked, setClicked] = useState(false)
 
   return (
-    <div className="my-3 rounded-xl bg-gray-200 text-sm sm:text-lg md:my-4 lg:text-2xl">
+    <div className="my-3 rounded-xl bg-blue-50 odd:bg-blue-100 text-sm max-w-5xl mx-auto sm:text-lg md:my-4 lg:text-2xl">
       <div
         className="relative cursor-pointer py-2 px-4 font-semibold lg:px-12 lg:py-4"
         onClick={() => {
