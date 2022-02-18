@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.neon {
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff;
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
 }
 
-html {
-  scroll-behavior: smooth;
+@layer utilities {
+  .neon {
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff;
+  }
 }
