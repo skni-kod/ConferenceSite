@@ -3,7 +3,7 @@ import Image from './Image'
 const Footer = () => {
   return (
     <footer
-      className="bg-white px-6 py-12 text-black flex flex-col max-w-screen-2xl mx-auto md:px-12 md:text-xl xl:flex-row xl:gap-4"
+      className="mx-auto flex max-w-screen-2xl flex-col bg-white px-6 py-12 text-black md:px-12 md:text-xl xl:flex-row xl:gap-4"
       id="kontakt"
     >
       <div>
@@ -29,8 +29,8 @@ const Footer = () => {
               <rect x="3" y="5" width="18" height="14" rx="2" />
               <polyline points="3 7 12 13 21 7" />
             </svg>
-            <a href="mailto:sknikod@47.47" className="underline">
-              sknikod@47.47
+            <a href="mailto:sknikodprz@gmail.com" className="underline">
+              sknikodprz@gmail.com
             </a>
           </div>
         </div>
