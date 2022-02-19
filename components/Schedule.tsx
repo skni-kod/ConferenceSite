@@ -3,7 +3,7 @@ import ScheduleItem from './ScheduleItem'
 const Schedule = () => {
   return (
     <section
-      className="bg-blue-900 p-10 md:px-6 lg:pb-32"
+      className="bg-blue-900  py-10 px-4 md:px-6 lg:pb-32"
       id="program-wydarzenia"
     >
       <h2 className="mb-4 text-center text-xl font-semibold text-white sm:text-2xl md:py-6 md:text-3xl lg:py-16 lg:text-5xl">
