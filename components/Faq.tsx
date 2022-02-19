@@ -11,26 +11,6 @@ const Faq = () => {
         answer="Nah, jest zupełnie darmowy o ile jesteś posiadaczem biletu wydawanego 
 przez organizatorów wydarzenia :) Jeśli nie masz biletu możesz zobaczyć konferencję ONLINE!"
       />
-      <FaqItem
-        question="Czy wstęp na konferencję jest płatny?"
-        answer="Nah, jest zupełnie darmowy o ile jesteś posiadaczem biletu wydawanego 
-przez organizatorów wydarzenia :) Jeśli nie masz biletu możesz zobaczyć konferencję ONLINE!"
-      />
-      <FaqItem
-        question="Czy wstęp na konferencję jest płatny?"
-        answer="Nah, jest zupełnie darmowy o ile jesteś posiadaczem biletu wydawanego 
-przez organizatorów wydarzenia :) Jeśli nie masz biletu możesz zobaczyć konferencję ONLINE!"
-      />
-      <FaqItem
-        question="Czy wstęp na konferencję jest płatny?"
-        answer="Nah, jest zupełnie darmowy o ile jesteś posiadaczem biletu wydawanego 
-przez organizatorów wydarzenia :) Jeśli nie masz biletu możesz zobaczyć konferencję ONLINE!"
-      />
-      <FaqItem
-        question="Czy wstęp na konferencję jest płatny?"
-        answer="Nah, jest zupełnie darmowy o ile jesteś posiadaczem biletu wydawanego 
-przez organizatorów wydarzenia :) Jeśli nie masz biletu możesz zobaczyć konferencję ONLINE!"
-      />
     </section>
   )
 }
