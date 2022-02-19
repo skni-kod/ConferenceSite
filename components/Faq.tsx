@@ -8,8 +8,11 @@ const Faq = () => {
       </h2>
       <FaqItem
         question="Czy wstęp na konferencję jest płatny?"
-        answer="Nah, jest zupełnie darmowy o ile jesteś posiadaczem biletu wydawanego 
-przez organizatorów wydarzenia :) Jeśli nie masz biletu możesz zobaczyć konferencję ONLINE!"
+        answer="Nie, nasza konferencja jest zupełnie darmowa."
+      />
+      <FaqItem
+        question="Jak mogę uzyskać bilet na konferencję stacjonarną?"
+        answer="Napisz do Nas na mail załączony w zakładce Kontakt. Jeśli zdążysz przed innymi to otrzymasz darmową wejściówkę na wydarzenie!"
       />
     </section>
   )
