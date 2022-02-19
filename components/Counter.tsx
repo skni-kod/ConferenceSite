@@ -46,7 +46,7 @@ const Counter = () => {
         </div>
       </div>
       <div className='mt-8 md:mt-12 lg:mt-16'>
-        Wydarzenie możesz obejrzeć na <a href="#" className='uppercase text-blue-800 font-semibold hover:text-blue-400'>transmisji online</a>
+        Wydarzenie możesz obejrzeć na <a href="https://www.facebook.com/skni.kod/" className='uppercase text-blue-800 font-semibold hover:text-blue-400'>transmisji online</a>
       </div>
     </section>
   )
