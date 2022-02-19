@@ -14,10 +14,10 @@ const Counter = () => {
     start()
   }, [start])
 
-  let days = Math.floor((timeLeft * 0.001) / 86400)
-  let hours = Math.floor(((timeLeft * 0.001) / 3600) % 24)
-  let minutes = Math.floor(((timeLeft * 0.001) / 60) % 60)
-  let seconds = (timeLeft * 0.001) % 60
+  const days = Math.floor((timeLeft * 0.001) / 86400)
+  const hours = Math.floor(((timeLeft * 0.001) / 3600) % 24)
+  const minutes = Math.floor(((timeLeft * 0.001) / 60) % 60)
+  const seconds = (timeLeft * 0.001) % 60
 
   return (
     <section className="px-6 py-24 text-center md:py-32 md:text-2xl xl:py-44 xl:text-4xl">
