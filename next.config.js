@@ -4,4 +4,5 @@ module.exports = {
   images: {
     loader: 'custom',
   },
+  assetPrefix: '.'
 }
