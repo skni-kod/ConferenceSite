@@ -12,7 +12,7 @@ const FaqItem = ({ answer, question }: FaqItemProps) => {
   return (
     <div className="my-3 rounded-xl bg-blue-50 odd:bg-blue-100 text-sm max-w-5xl mx-auto sm:text-lg md:my-4 lg:text-2xl">
       <div
-        className="relative cursor-pointer py-2 px-4 font-semibold lg:px-12 lg:py-4"
+        className="relative cursor-pointer py-2 pl-4 pr-10 font-semibold lg:px-12 lg:py-4"
         onClick={() => {
           setClicked((prevClicked) => !prevClicked)
         }}
@@ -55,7 +55,7 @@ const FaqItem = ({ answer, question }: FaqItemProps) => {
       <div
         className={
           clicked
-            ? 'h-44 rounded-b-xl bg-white py-2 px-4 transition-[height] duration-200 ease-out lg:px-12 lg:py-6'
+            ? 'h-48 rounded-b-xl bg-white py-2 px-4 transition-[height] duration-200 ease-out lg:px-12 lg:py-6'
             : 'h-0 w-0 overflow-hidden transition-[height] duration-200 ease-out'
         }
       >
