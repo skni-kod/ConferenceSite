@@ -1,6 +1,12 @@
 import { useState } from 'react'
 
-const FaqItem = (props: any) => {
+export type FaqItemProps = {
+  answer: string
+  children?: never
+  question: string
+}
+
+const FaqItem = ({ answer, question }: FaqItemProps) => {
   const [clicked, setClicked] = useState(false)
 
   return (
@@ -11,7 +17,7 @@ const FaqItem = (props: any) => {
           setClicked((prevClicked) => !prevClicked)
         }}
       >
-        {props.question}
+        {question}
         <div className="absolute left-0 top-0 right-0 ml-auto mr-4 flex h-full w-6 items-center">
           {!clicked ? (
             <svg
@@ -53,7 +59,7 @@ const FaqItem = (props: any) => {
             : 'h-0 w-0 overflow-hidden transition-[height] duration-200 ease-out'
         }
       >
-        {props.answer}
+        {answer}
       </div>
     </div>
   )
