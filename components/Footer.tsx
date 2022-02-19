@@ -93,8 +93,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mx-auto mt-12 w-fit xl:mr-0 xl:self-end">
-        <Image src="/logo.webp" alt="logo" width={500} height={155} />
+      <div className="mx-auto mt-12 w-fit xl:mr-0 xl:self-end xl:flex">
+        <Image className='self-end' src="/logo.webp" alt="logo" width={500} height={155} />
       </div>
     </footer>
   )
