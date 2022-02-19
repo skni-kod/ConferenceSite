@@ -8,7 +8,7 @@ const FaqItem = (props: any) => {
       <div
         className="relative cursor-pointer py-2 px-4 font-semibold lg:px-12 lg:py-4"
         onClick={() => {
-          setClicked(!clicked)
+          setClicked((prevClicked) => !prevClicked)
         }}
       >
         {props.question}

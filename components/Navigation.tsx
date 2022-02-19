@@ -17,7 +17,7 @@ const Navigation = () => {
         <button
           className="z-40 lg:hidden"
           onClick={() => {
-            setClicked(!clicked)
+            setClicked((prevClicked) => !prevClicked)
           }}
           aria-label="navigation button"
         >
