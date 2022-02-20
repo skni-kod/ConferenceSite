@@ -55,8 +55,8 @@ const FaqItem = ({ answer, question }: FaqItemProps) => {
       <div
         className={
           clicked
-            ? 'h-48 rounded-b-xl bg-white py-2 px-4 transition-[height] duration-200 ease-out lg:px-12 lg:py-6'
-            : 'h-0 w-0 overflow-hidden transition-[height] duration-200 ease-out'
+            ? 'max-h-48 rounded-b-xl bg-white py-2 px-4 transition-[max-height, padding-top] duration-200 ease-out lg:px-12 lg:py-6'
+            : 'max-h-0 overflow-hidden rounded-b-xl bg-white py-0 px-4 transition-[max-height, padding-top] duration-200 ease-out lg:px-12 lg:py-0'
         }
       >
         {answer}
