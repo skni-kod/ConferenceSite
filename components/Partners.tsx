@@ -12,7 +12,7 @@ const Partners = () => {
         <div className="flex flex-col gap-6 px-6 lg:flex-row lg:flex-wrap lg:justify-center lg:gap-12">
           <div className="relative h-20 lg:h-36 w-full lg:basis-1/4">
             <Image
-              src="/logo.webp"
+              src="/deloitte.webp"
               alt="sponsor"
               layout="fill"
               objectFit="contain"
@@ -20,7 +20,7 @@ const Partners = () => {
           </div>
           <div className="relative h-20 lg:h-36 w-full lg:basis-1/4">
             <Image
-              src="/logo.webp"
+              src="/fabrity.webp"
               alt="sponsor"
               layout="fill"
               objectFit="contain"
