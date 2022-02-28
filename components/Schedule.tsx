@@ -18,7 +18,7 @@ const Schedule = () => {
         />
         <ScheduleItem
           hour="11:05 - 11:50"
-          event='Prelekcja "Jak wystartować w IT?"'
+          event='Prelekcja - "Jak wystartować w IT?"'
           organiser="Fabrity"
         />
         <ScheduleItem
@@ -27,7 +27,7 @@ const Schedule = () => {
           organiser='SKNI "KOD"'
         />
         <ScheduleItem hour="12:30 - 13:00" event="Prelekcja - WKRÓTCE" />
-        <ScheduleItem hour="13:05 - 13:50" event="Prelekcja - WKRÓTCE" />
+        <ScheduleItem hour="13:05 - 13:50" event='Prelekcja - "A może Rust?"' organiser="Maciej Sołtys, Mid Rust Developer"/>
         <ScheduleItem hour="14:15 - 14:45" event="Prelekcja - WKRÓTCE" />
         <ScheduleItem hour="14:50 - 15:30" event="Prelekcja - WKRÓTCE" />
         <ScheduleItem hour="15:35 - 16:15" event="Prelekcja - WKRÓTCE" />
