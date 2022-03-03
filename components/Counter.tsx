@@ -45,8 +45,14 @@ const Counter = () => {
           <div className="mt-2 font-semibold xl:mt-6">Sekund</div>
         </div>
       </div>
-      <div className='mt-8 md:mt-12 lg:mt-16'>
-        Wydarzenie możesz obejrzeć na <a href="https://www.facebook.com/skni.kod/" className='uppercase text-blue-800 font-semibold hover:text-blue-400'>transmisji online</a>
+      <div className="mt-8 md:mt-12 lg:mt-16">
+        Więcej na temat wydarzenia możesz przeczytać{' '}
+        <a
+          href="https://fb.me/e/275QyT5v7"
+          className="font-semibold uppercase text-blue-800 hover:text-blue-400"
+        >
+          tutaj
+        </a>
       </div>
     </section>
   )
