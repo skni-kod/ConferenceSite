@@ -13,7 +13,7 @@ const Schedule = () => {
         <ScheduleItem hour="10:00 - 10:30" event="Rozpoczęcie konferencji" />
         <ScheduleItem
           hour="10:30 - 11:00"
-          event="Prezentacja projektu Roguelike"
+          event="Prezentacja gry Roguelike"
           organiser='SKNI "KOD"'
         />
         <ScheduleItem
@@ -23,19 +23,28 @@ const Schedule = () => {
         />
         <ScheduleItem
           hour="11:55 - 12:25"
-          event="Prezentacja projektu MicrOS"
+          event="Prezentacja systemu operacyjnego MicrOS"
           organiser='SKNI "KOD"'
         />
         <ScheduleItem hour="12:30 - 13:00" event="Prelekcja - WKRÓTCE" />
-        <ScheduleItem hour="13:05 - 13:50" event='Prelekcja - "A może Rust?"' organiser="Maciej Sołtys, Mid Rust Developer"/>
+        <ScheduleItem
+          hour="13:05 - 13:50"
+          event='Prelekcja - "A może Rust?"'
+          organiser="Maciej Sołtys, Mid Rust Developer"
+        />
         <ScheduleItem hour="14:15 - 14:45" event="Prelekcja - WKRÓTCE" />
-        <ScheduleItem hour="14:50 - 15:30" event="Prelekcja - WKRÓTCE" />
+        <ScheduleItem
+          hour="14:50 - 15:30"
+          event="Pisanie oprogramownia w stylu Handmade"
+          organiser="Paweł Dziedzic, Simplicity Games"
+        />
         <ScheduleItem hour="15:35 - 16:15" event="Prelekcja - WKRÓTCE" />
         <ScheduleItem
           hour="16:15 - 16:30"
           event="Zakończenie konferencji i rozdanie nagród uczestnikom"
         />
       </div>
+      <div className='mt-4 text-center italic text-white sm:text-xl sm:mt-6 md:text-2xl md:mt-10 lg:text-3xl'>Harmonogram może ulec zmianie</div>
     </section>
   )
 }
