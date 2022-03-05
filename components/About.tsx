@@ -9,15 +9,16 @@ const About = () => {
           Czym jest SKNI &quot;KOD&quot;?
         </h2>
         <p className="my-3 mx-auto max-w-5xl rounded-xl text-justify text-sm sm:text-lg md:my-4 lg:text-2xl">
-          Celem pracy Koła jest poszerzenie wiedzy z dziedziny optymalnego
-          rozwiązywania zagadnień programowania oraz poznawanie nowoczesnych
-          technologii informatycznych. W ramach regularnych spotkań studenci
-          samodzielnie przygotowują referaty oraz organizują wewnętrzne
-          współzawodnictwo w rozwiązywaniu interesujących ich zagadnień.
+          SKNI &quot;KOD&quot; jest to Studenckie Koło Naukowe Informatyków &quot;KOD&quot;
+          działające na Politechnice Rzeszowskiej. Celem pracy Koła jest
+          poszerzenie wiedzy z dziedziny optymalnego rozwiązywania zagadnień
+          programowania oraz poznawanie nowoczesnych technologii
+          informatycznych. W ramach regularnych spotkań studenci samodzielnie
+          przygotowują referaty oraz organizują wewnętrzne współzawodnictwo w
+          rozwiązywaniu interesujących ich zagadnień.
         </p>
-        <div className="my-3 mx-auto max-w-5xl rounded-xl text-justify text-sm sm:text-lg md:my-4 lg:text-3xl lg:mt-8">
-          Chcesz dowiedzieć się więcej?
-          Odwiedź{' '}
+        <div className="my-3 mx-auto max-w-5xl rounded-xl text-justify text-sm sm:text-lg md:my-4 lg:mt-8 lg:text-3xl">
+          Chcesz dowiedzieć się więcej? Odwiedź{' '}
           <a
             href="https://kod.prz.edu.pl/"
             className="font-semibold uppercase text-blue-100 hover:text-blue-50"
