@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import HtmlReactParser from 'html-react-parser'; 
 
 export type FaqItemProps = {
-  answer: string
+  answer: React.ReactNode
   children?: never
   question: string
 }
@@ -60,7 +59,7 @@ const FaqItem = ({ answer, question }: FaqItemProps) => {
             : 'max-h-0 overflow-hidden rounded-b-xl bg-white py-0 px-4 transition-all duration-200 ease-out lg:px-12 lg:py-0'
         }
       >
-        {HtmlReactParser(answer)}
+        {answer}
       </div>
     </div>
   )
