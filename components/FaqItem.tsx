@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import HtmlReactParser from 'html-react-parser'; 
 
 export type FaqItemProps = {
   answer: string
@@ -55,11 +56,11 @@ const FaqItem = ({ answer, question }: FaqItemProps) => {
       <div
         className={
           clicked
-            ? 'max-h-48 rounded-b-xl bg-white py-2 px-4 transition-all duration-200 ease-out lg:px-12 lg:py-6'
+            ? 'max-h-60 rounded-b-xl bg-white py-2 px-4 transition-all duration-200 ease-out lg:px-12 lg:py-6'
             : 'max-h-0 overflow-hidden rounded-b-xl bg-white py-0 px-4 transition-all duration-200 ease-out lg:px-12 lg:py-0'
         }
       >
-        {answer}
+        {HtmlReactParser(answer)}
       </div>
     </div>
   )
