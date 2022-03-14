@@ -12,35 +12,35 @@ const Schedule = () => {
       <div>
         <ScheduleItem hour="10:00 - 10:30" event="Rozpoczęcie konferencji" />
         <ScheduleItem
-          hour="10:30 - 11:00"
+          hour="10:30 - 10:50"
           event="Prezentacja gry Roguelike"
           organiser='SKNI "KOD"'
         />
         <ScheduleItem
-          hour="11:05 - 11:50"
+          hour="11:00 - 11:45"
           event='Prelekcja - "Jak wystartować w IT?"'
           organiser="Fabrity"
         />
         <ScheduleItem
-          hour="11:55 - 12:25"
+          hour="11:55 - 12:15"
           event="Prezentacja systemu operacyjnego MicrOS"
           organiser='SKNI "KOD"'
         />
-        <ScheduleItem hour="12:30 - 13:00" event="Prelekcja - WKRÓTCE" />
+        <ScheduleItem hour="12:25 - 13:10" event="Prelekcja - WKRÓTCE" />
         <ScheduleItem
-          hour="13:05 - 13:50"
+          hour="13:20 - 14:05"
           event='Prelekcja - "A może Rust?"'
           organiser="Maciej Sołtys, Mid Rust Developer"
         />
-        <ScheduleItem hour="14:15 - 14:45" event="Prelekcja - WKRÓTCE" />
+        <ScheduleItem hour="14:30 - 15:00" event="Prelekcja - WKRÓTCE" />
         <ScheduleItem
-          hour="14:50 - 15:30"
+          hour="15:10 - 15:55"
           event="Pisanie oprogramownia w stylu Handmade"
           organiser="Paweł Dziedzic, Simplicity Games"
         />
-        <ScheduleItem hour="15:35 - 16:15" event="Prelekcja - WKRÓTCE" />
+        <ScheduleItem hour="16:05 - 16:35" event="Interpretowalne AI - Analiza zachowań w sieci" organiser='Koło Naukowe Machine Learning'/>
         <ScheduleItem
-          hour="16:15 - 16:30"
+          hour="16:35 - 16:45"
           event="Zakończenie konferencji i rozdanie nagród uczestnikom"
         />
       </div>
