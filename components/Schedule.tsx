@@ -26,13 +26,13 @@ const Schedule = () => {
           event="Prezentacja systemu operacyjnego MicrOS"
           organiser='SKNI "KOD"'
         />
-        <ScheduleItem hour="12:25 - 13:10" event="Prelekcja - WKRÓTCE" />
+        <ScheduleItem hour="12:25 - 13:10" event='Azure' organiser='Deloitte' />
         <ScheduleItem
           hour="13:20 - 14:05"
           event='Prelekcja - "A może Rust?"'
           organiser="Maciej Sołtys, Mid Rust Developer"
         />
-        <ScheduleItem hour="14:30 - 15:00" event="Prelekcja - WKRÓTCE" />
+        <ScheduleItem hour="14:30 - 15:00" event="Akcja dezinformaja, czyli jak nie dać się oszukać" organiser='Łukasz Sieracki i Jakub Pobuta, SAITS'/>
         <ScheduleItem
           hour="15:10 - 15:55"
           event="Pisanie oprogramownia w stylu Handmade"
