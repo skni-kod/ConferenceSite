@@ -32,7 +32,7 @@ const Schedule = () => {
           event='"A może Rust?"'
           organiser="Maciej Sołtys, Mid Rust Developer"
         />
-        <ScheduleItem hour="14:30 - 15:00" event='"Akcja dezinformaja, czyli jak nie dać się oszukać"' organiser='Łukasz Sieracki i Jakub Pobuta, SAITS'/>
+        <ScheduleItem hour="14:30 - 15:00" event='"Akcja dezinformacja, czyli jak nie dać się oszukać"' organiser='Łukasz Sieracki i Jakub Pobuta, SAITS'/>
         <ScheduleItem
           hour="15:10 - 15:55"
           event='"Pisanie oprogramownia w stylu Handmade"'
