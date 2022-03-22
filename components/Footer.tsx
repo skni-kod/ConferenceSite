@@ -3,17 +3,17 @@ import Image from './Image'
 const Footer = () => {
   return (
     <footer
-      className="mx-auto flex max-w-screen-2xl flex-col bg-white px-6 py-12 text-black md:px-12 md:text-xl xl:flex-row xl:gap-4"
+      className="mx-auto flex max-w-screen-2xl flex-col bg-white px-6 py-12 text-black md:px-12 md:text-xl xl:flex-row-reverse xl:gap-4"
       id="kontakt"
     >
       <div>
-        <div className="flex flex-col justify-between gap-2">
+        <div className="flex flex-col justify-between gap-2 xl:text-center">
           <div>
             Chcesz zostać partnerem konferencji lub masz jakieś pytanie?
             <br />
             Napisz do nas:
           </div>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1 xl:justify-center">
             <svg
               className="h-6 w-6 text-black"
               width="24"
@@ -39,7 +39,7 @@ const Footer = () => {
             Odwiedź nasze social media, aby dowiedzieć się więcej o naszym Kole
             Naukowym:
           </div>
-          <div className="mt-4 flex gap-8 md:gap-12">
+          <div className="mt-4 flex gap-8 md:gap-12 xl:justify-center">
             <a href="https://www.facebook.com/skni.kod/" aria-label="Facebook">
               <svg
                 className="h-12 w-12 rounded-lg bg-blue-500 p-2 text-white transition-all hover:scale-110 md:h-16 md:w-16"
@@ -93,8 +93,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mx-auto mt-12 w-fit xl:mr-0 xl:self-end xl:flex">
-        <Image className='self-end' src="/logo.webp" alt="logo" width={500} height={155} />
+      <div className="mx-auto mt-12 w-fit xl:ml-0 xl:self-center xl:flex xl:mt-0">
+        <Image className='self-center' src="/logo.webp" alt="logo" width={500} height={155} />
       </div>
     </footer>
   )
