@@ -36,7 +36,7 @@ const Schedule = () => {
         <ScheduleItem
           hour="15:10 - 15:55"
           event='"Pisanie oprogramownia w stylu Handmade"'
-          organiser="Paweł Dziedzic, Simplicity Games"
+          organiser="Paweł Dziedzic"
         />
         <ScheduleItem hour="16:05 - 16:35" event='"Interpretowalne AI - Analiza zachowań w sieci"' organiser='Koło Naukowe Machine Learning'/>
         <ScheduleItem
