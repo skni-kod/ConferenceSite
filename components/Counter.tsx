@@ -57,7 +57,7 @@ const Counter = () => {
       <div className="mt-8 md:mt-12 lg:mt-16">
         Podczas wydarzenia obowiązuje{' '}
         <a
-          href="/regulamin_skni_25.pdf"
+          href="./konferencja/regulamin_skni_25.pdf"
           className="font-semibold uppercase text-blue-800 hover:text-blue-400"
           target="_blank"
         >
