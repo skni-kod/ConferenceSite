@@ -26,7 +26,7 @@ const Schedule = () => {
           event="Prezentacja systemu operacyjnego MicrOS"
           organiser='SKNI "KOD"'
         />
-        <ScheduleItem hour="12:25 - 13:10" event='"Azure"' organiser='Deloitte' />
+        <ScheduleItem hour="12:25 - 13:10" event='"Pisać czy klikać? - tworzenie aplikacji w ServiceNow"' organiser='Marek Kisała, Deloitte' />
         <ScheduleItem
           hour="13:20 - 14:05"
           event='"A może Rust?"'
