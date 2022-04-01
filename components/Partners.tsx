@@ -12,16 +12,33 @@ const Partners = () => {
 
       <div className="mb-12 sm:mb-24">
         <h3 className="mb-6  md:mb-10 lg:mb-12">Patronat honorowy</h3>
-        <div className="px-6">
-          <div className="relative h-20 w-full lg:h-36 lg:basis-1/4">
-            <Image
-              src="/president.webp"
-              alt="sponsor"
-              layout="fill"
-              objectFit="contain"
-            />
+        <div className="flex flex-wrap flex-col items-center justify-center gap-12 px-6 lg:gap-20 lg:flex-row">
+          <div className='lg:basis-1/3'>
+            <div className="relative h-20 w-full lg:h-36">
+              <Image
+                src="/president.webp"
+                alt="sponsor"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
+            <div className="pt-4 normal-case lg:pt-8 lg:text-3xl">
+              Prezydent Miasta Rzeszowa
+            </div>
           </div>
-          <div className='pt-4 normal-case lg:text-3xl lg:pt-8'>Prezydent Miasta Rzeszowa</div>
+          <div className='lg:basis-1/3'>
+            <div className="relative h-20 w-full lg:h-36">
+              <Image
+                src="/prz.webp"
+                alt="sponsor"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
+            <div className="pt-4 normal-case lg:pt-8 lg:text-3xl">
+              JM Rektor PRz
+            </div>
+          </div>
         </div>
       </div>
 
@@ -64,7 +81,9 @@ const Partners = () => {
       </div>
 
       <div className="mb-12 sm:mb-24">
-        <h3 className="mb-6  md:mb-10 lg:mb-12 md:text-xl lg:text-4xl xl:text-5xl">Partner srebrny</h3>
+        <h3 className="mb-6  md:mb-10 md:text-xl lg:mb-12 lg:text-4xl xl:text-5xl">
+          Partner srebrny
+        </h3>
         <div className="flex flex-col gap-6 px-6 lg:flex-row lg:flex-wrap lg:justify-center lg:gap-12">
           <div className="relative h-14 w-full lg:h-24 lg:basis-1/4">
             <Image
