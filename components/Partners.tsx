@@ -36,7 +36,7 @@ const Partners = () => {
               />
             </div>
             <div className="pt-4 normal-case lg:pt-8 lg:text-3xl">
-              JM Rektor PRz
+              JM Rektor Politechniki Rzeszowskiej
             </div>
           </div>
         </div>
