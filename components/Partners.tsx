@@ -155,6 +155,14 @@ const Partners = () => {
               objectFit="contain"
             />
           </div>
+          <div className="relative h-10 w-full lg:h-16 lg:basis-1/4">
+            <Image
+              src="/pcrm.webp"
+              alt="sponsor"
+              layout="fill"
+              objectFit="contain"
+            />
+          </div>
         </div>
       </div>
 
