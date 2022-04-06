@@ -68,11 +68,17 @@ const Counter = () => {
           </div>
         </>
       ) : (
-<iframe
-    src="https://player.twitch.tv/?sknikod&parent=https://kod.prz.edu.pl/konferencja"
-    height="100"
-    width="100">
-</iframe>
+        <div className="mt-8 md:mt-12 lg:mt-16">
+        Transmisja konferencji jest dostępna na serwisie Twitch:{' '}
+        <a
+          href="https://www.twitch.tv/sknikod"
+          className="font-semibold uppercase text-blue-800 hover:text-blue-400"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LINK
+        </a>
+      </div>
       )}
     </section>
   )
