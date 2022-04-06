@@ -1,6 +1,5 @@
 import useCountDown from 'react-countdown-hook'
 import { useEffect } from 'react'
-import { TwitchStream } from 'react-twitch-stream'
 
 const initialTime = new Date('April 5, 2022 10:00:00').getTime() - Date.now()
 const interval = 1000
