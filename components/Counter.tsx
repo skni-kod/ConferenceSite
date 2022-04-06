@@ -1,7 +1,7 @@
 import useCountDown from 'react-countdown-hook'
 import { useEffect } from 'react'
 
-const initialTime = new Date('April 5, 2022 10:00:00').getTime() - Date.now()
+const initialTime = new Date('April 6, 2022 10:00:00').getTime() - Date.now()
 const interval = 1000
 
 const Counter = () => {
