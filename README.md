@@ -1,3 +1,5 @@
+Source code of SKNI "KOD" conference site - www.skni25.pl
+
 This project requires node.js installed on your computer.
 
 ## Running locally in development mode
