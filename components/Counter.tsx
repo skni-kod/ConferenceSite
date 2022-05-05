@@ -69,15 +69,7 @@ const Counter = () => {
         </>
       ) : (
         <div className="mt-8 md:mt-12 lg:mt-16">
-        Transmisja konferencji jest dostępna na serwisie Twitch:{' '}
-        <a
-          href="https://www.twitch.tv/sknikod"
-          className="font-semibold uppercase text-blue-800 hover:text-blue-400"
-          target="_blank"
-          rel="noreferrer"
-        >
-          LINK
-        </a>
+        Galeria z konferencji wkrótce! Dziękujemy za wszystkim uczestnikom za udział!{' '}
       </div>
       )}
     </section>
