@@ -13,7 +13,7 @@ const ScheduleItem = ({ event, hour, organiser }: ScheduleItemProps) => {
         <div>
           {event}
         </div>
-        <div className="text-gray-400 italic text-xs sm:text-sm md:text-base lg:text-xl">
+        <div className="text-gray-600 italic text-xs sm:text-sm md:text-base lg:text-xl">
           {organiser}
         </div>
       </div>

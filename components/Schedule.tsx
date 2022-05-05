@@ -44,7 +44,6 @@ const Schedule = () => {
           event="Zakończenie konferencji i rozdanie nagród uczestnikom"
         />
       </div>
-      <div className='mt-4 text-center italic text-white sm:text-xl sm:mt-6 md:text-2xl md:mt-10 lg:text-3xl'>Harmonogram może ulec zmianie</div>
     </section>
   )
 }
